@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	font-family: 'Kanit', sans-serif;
+}
+body{
+  	font-family: 'Kanit', sans-serif;
+}
+section.home {
+	margin-top: 80px;
+  }
+.navbar {
+	background-color: rgba(255, 255, 255, 0.822); /* Đặt độ mờ ở đây */
+	backdrop-filter: blur(300px); /* Thêm hiệu ứng mờ */
+  }
+.home-img{
+	margin-left: 150px;	
+}
+h1{
+	color: #F90;	
+}
+h2{
+	color: #630;	
+}
+nav{
+	display:flex;
+	width: 100%;
+	justify-content: space-around;
+	z-index: 111;
+	font-family: 'Kanit', sans-serif;
+	font-size: 20px;
+	font-style: bold;
+}
+.nav-items li:hover a,
+.links a:hover{
+	color: #630;
+	font-family: 'Kanit', sans-serif;
+}
+.links a{
+	font-size:15px;
+	color: #F90;
+	margin: 25px 10px;
+	font-family: 'Kanit', sans-serif;
+}
+.home {
+	padding-top: 120px;
+	margin-top: -120px;
+	font-family: 'Kanit', sans-serif;
+}
+.nav-link {
+  	color:#F90;	
+}
+
+.nav-link:hover {
+  	color:#630;	
+}
+section{
+	font-family: 'Kanit', sans-serif;	
+}
+.skill.bg-orange {
+ 	 background-color: rgb(255, 198, 112);
+}
+.progress-bar.bg-orange {
+  	background-color: #F30;
+}
+.icon-project {
+	color: #F90;
+}
+.project-sys {
+	color: rgb(255, 153, 0);
+}
+.project-sys:hover {
+	color:#630;
+}
+.text-left {
+    text-align: left;
+}
+.section-minititle {
+	font-size: 30px;
+	font-style: inherit;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bg-orange{
+	background-color: rgb(255, 198, 112);
+}
+.carousel-control-prev, .carousel-control-next {
+	border-radius: 50%;
+  }
+  .icon-contact {
+	color: #F90;
+}
+.contact-item {
+	margin-bottom: 20px;
+  }
+.bg-footer{
+	background-color: #F90;
+}
+.footer .text-white {
+	color: white;
+  }
